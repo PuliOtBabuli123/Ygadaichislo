@@ -85,7 +85,7 @@ class Window(QMainWindow):
         self.spin.setFont(QFont('Times', 15))
  
 
-        check = QPushButton("Check", self)
+        check = QPushButton("Проверить", self)
  
 
         check.setGeometry(130, 235, 80, 30)
@@ -94,11 +94,11 @@ class Window(QMainWindow):
         check.clicked.connect(self.check_action)
  
 
-        start = QPushButton("Start", self)
+        start = QPushButton("Старт", self)
         start.setGeometry(65, 280, 100, 40)
  
 
-        reset_game = QPushButton("Reset", self)
+        reset_game = QPushButton("Попробовать снова", self)
  
         reset_game.setGeometry(175, 280, 100, 40)
  

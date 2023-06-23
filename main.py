@@ -155,15 +155,10 @@ class Window(QMainWindow):
                                 "}")
         self.info.setText("Добро пожаловать")
  
- 
- 
- 
- 
-# create pyqt5 app
 App = QApplication(sys.argv)
  
-# create the instance of our Window
+
 window = Window()
  
-# start the app
+
 sys.exit(App.exec())

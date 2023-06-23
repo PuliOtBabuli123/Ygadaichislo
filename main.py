@@ -131,7 +131,7 @@ class Window(QMainWindow):
  
         if user_number == self.number:
  
-            self.info.setText("Правиль! Ты угадал!")
+            self.info.setText("Правильно! Ты угадал!")
             self.info.setStyleSheet("QLabel"
                                     "{"
                                     "border : 2px solid black;"
